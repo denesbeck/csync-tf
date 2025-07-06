@@ -1,10 +1,12 @@
 variable "aws_access_key" {
   type        = string
+  default     = "dummy"
   description = "AWS Access Key"
 }
 
 variable "aws_secret_key" {
   type        = string
+  default     = "dummy"
   description = "AWS Secret Key"
 }
 
@@ -16,5 +18,6 @@ variable "region" {
 
 variable "from_address" {
   type        = string
+  default     = "contact@csync.com"
   description = "Email address from which the verification code is sent from"
 }
